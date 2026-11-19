@@ -1,0 +1,7 @@
+/* Memuat lapisan dasar, komponen, dan utilitas dari Tailwind CSS. */
+/* Memuat reset dan gaya dasar untuk elemen HTML. */
+@tailwind base;
+/* Memuat kelas-kelas komponen yang disediakan Tailwind. */
+@tailwind components;
+/* Memuat seluruh utility class yang digunakan di tampilan aplikasi. */
+@tailwind utilities;

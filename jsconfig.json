@@ -1,0 +1,16 @@
+{
+    // Opsi konfigurasi untuk pemeriksaan dan penyelesaian kode JavaScript.
+    "compilerOptions": {
+        // Direktori dasar yang digunakan untuk menyelesaikan path relatif.
+        "baseUrl": ".",
+        // Alias path agar file dapat diimpor menggunakan nama yang lebih ringkas.
+        "paths": {
+            // Mengarahkan alias @/ ke direktori resources/js.
+            "@/*": ["resources/js/*"],
+            // Menyediakan path untuk paket ziggy-js dari direktori vendor.
+            "ziggy-js": ["./vendor/tightenco/ziggy"]
+        }
+    },
+    // Mengecualikan direktori berikut dari pemeriksaan konfigurasi ini.
+    "exclude": ["node_modules", "public"]
+}
